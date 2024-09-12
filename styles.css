@@ -157,5 +157,41 @@ h2 {
     background-color: #3882F6;
     border-radius: 10px;
     display: flex;
-    
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
 }
+
+.callhead { 
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 500;
+}
+
+.subtext3 {
+    font-size: 15px;
+    color: #f9faf8;
+    margin: 0;
+}
+
+.poster a {
+    color: #f9faf8;
+    border-radius: 10px;
+    height: 35px;
+    width: 115px;
+    border: 2px solid #f9faf8;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    background-color: #1F2937;
+    height: 100px;
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
