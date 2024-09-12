@@ -1,5 +1,5 @@
 body {
-    font-family: 'Roboto';
+    font-family: 'Roboto', system-ui;
     margin: 0px;
 }
 
@@ -12,17 +12,62 @@ ul {
     color: #e5e7eb;
 }
 
+.signup { 
+    display: flex;
+    font-family: 'Roboto';
+    height: 35px;
+    width: 115px;
+    background-color: #3882F6;
+    color: #e5e7eb;
+    font-size: 15px;
+    font-weight: 900;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 800;
+}
+
+.icon {
+  border-radius: 25px;
+  border: 4px solid #3882F6;
+}
+
+.icon-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.icon, .subtext2 {
+    width: 150px;
+    height: 150px;
+    text-align: center;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
 .logo {
     font-size: 24px;
 }
 
 .title {
     font-size: 48px;
+    margin: 0;
 }
 
 .subtext {
     font-size: 18px;
     color: #e5e7eb;
+    margin: 0;
 }
 .header {
     display: flex;
@@ -52,13 +97,65 @@ ul {
 .left{
     display: flex;
     flex-direction: column;
-    /* margin-left: 80px; */
+    margin-left: 190px;
     padding-left: 5px;
-    align-items:flex-start;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 20px;
     width: 450px;
-    height: 300px;
+    height: 400px;
 }
 .placeholder {
-    margin-right: 80px;
-    padding-right: 5px;
+    display: flex;
+    margin-right: 175px;
+    padding-right: 15px;
+    width: 450px;
+    height: 225px;
+    background-color: gray;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    background-color: #e5e7eb;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    color: #1F2937;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    width: 850px;
+    
+}
+
+.quoter {
+    text-align: end;
+    padding-right:100px;
+    width: 850px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #1F2937;
+}
+
+.call {
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.poster {
+    height: 150px;
+    width: 850px;
+    background-color: #3882F6;
+    border-radius: 10px;
+    display: flex;
+    
 }
